@@ -5,12 +5,16 @@ AV Muter that is triggered by extended periods of loud input from the microphone
 Created by Jesse R Jurman and Ethan H Jurman
 
 This program is facilated by 2 scripts:
-    - AVMuter.py  | A python script (2.x or 3.x) that generates the black screen, countdown, and image
-    - Trigger.ahk | A AutoHotKeys file that listens for audio, mutes applications, and kicks-off AVMuter.py
+    
+- AVMuter.py  | A python script (2.x or 3.x) that generates the black screen, countdown, and image
+    
+- Trigger.ahk | A AutoHotKeys file that listens for audio, mutes applications, and kicks-off AVMuter.py
 
 There are several other files and libraries:
-    - shhhh.gif   | A gif image that is loaded at the bottom of the AVMuter screen
-    - lib/VA.ahk  | Audio Libraries for Windows Vista and later
+    
+- shhhh.gif   | A gif image that is loaded at the bottom of the AVMuter screen
+    
+- lib/VA.ahk  | Audio Libraries for Windows Vista and later
 
 There are several dependencies and requirements for this application to work. If you have any questions, feel free to email me at jrjurman@gmail.com; Understand that this program is open-source and provided as is. I'm not responsible if your computer becomes an unusable pile of goo as a result of running this.
 
@@ -18,13 +22,17 @@ There are several dependencies and requirements for this application to work. If
 
 
 INSTALL DEPENDENCIES:
- - Install AutoHotKeys (v1.1) [tested on v1.1.14.03]
+ 
+- Install AutoHotKeys (v1.1) [tested on v1.1.14.03]
   - http://www.autohotkey.com/
- - Install Python (2.7 or 3.3) [tested on 3.3.5rc1]
+ 
+- Install Python (2.7 or 3.3) [tested on 3.3.5rc1]
   - https://www.python.org/downloads/
   - Be sure when installing Python, you include the Tkinter library
- - OPEN SOUND PREFRENCES:
-  ( This might seem odd, but in order for AutoHotKeys to grab your microphone, the meter must be open )
+ 
+- OPEN SOUND PREFRENCES:
+  
+  _This might seem odd, but in order for AutoHotKeys to grab your microphone, the meter must be open_
   - Right Click sound icon in the bottom right > Recording Devices
   - Leave this window open
  - RUN TRIGGER.AHK
