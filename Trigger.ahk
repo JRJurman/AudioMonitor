@@ -4,12 +4,12 @@ tCounter := 0
 tDelay := 0
 
 ; Feel free to change the values below
-tAudio = 0.10    ; Volume which triggers program (lowest = 0.00, highest = 1.00)
-tLimit = 120     ; Number of periods where audio is over tAudio to trigger program (set as tCounter below)
-tDLimit = 40     ; Periods of delay before we reset tCounter to 0
-pDelay = 5       ; Number of seconds that programs are muted and screen is blacked out
-pPunish = 5      ; Number of seconds that are added to pDelay for everytime we have to black out
-fSize = 80       ; Size of Font on Blackout
+tAudio := 0.10    ; Volume which triggers program (lowest = 0.00, highest = 1.00)
+tLimit := 120     ; Number of periods where audio is over tAudio to trigger program (set as tCounter below)
+tDLimit := 40     ; Periods of delay before we reset tCounter to 0
+pDelay := 5       ; Number of seconds that programs are muted and screen is blacked out
+pPunish := 5      ; Number of seconds that are added to pDelay for everytime we have to black out
+fSize := 80       ; Size of Font on Blackout
 
 
 
