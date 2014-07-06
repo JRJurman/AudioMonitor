@@ -1,5 +1,8 @@
-AudioMonitor - AV Muter that is triggered by extended periods of loud input from the microphone
-Created by Jesse R Jurman
+AudioMonitor
+
+
+AV Muter that is triggered by extended periods of loud input from the microphone
+Created by Jesse R Jurman and Ethan H Jurman
 
 This program is facilated by 2 scripts:
     - AVMuter.py  | A python script (2.x or 3.x) that generates the black screen, countdown, and image
