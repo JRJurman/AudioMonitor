@@ -1,4 +1,4 @@
-import sys, time
+import sys, time, os.path
 from subprocess import call
 if sys.version_info[0]==2: #Just checking your Python version to import Tkinter properly.
     from Tkinter import *;
@@ -33,7 +33,10 @@ fSize.set(80)
 fSize.pack()
 
 def executeProgram():
-	call(["Trigger.exe", str(tAudio.get()), str(tLimit.get()), str(tDLimit.get()), str(pDelay.get()), str(pPunish.get()), str(fSize.get())])
+	if(os.path.isfile("Trigger.exe")):
+		call(["Trigger.exe", str(tAudio.get()), str(tLimit.get()), str(tDLimit.get()), str(pDelay.get()), str(pPunish.get()), str(fSize.get())])
+	else:
+		call(["AutoHotKey.exe", "Trigger.ahk", str(tAudio.get()), str(tLimit.get()), str(tDLimit.get()), str(pDelay.get()), str(pPunish.get()), str(fSize.get())])
 	exit()
 	
 b = Button(master, text="Run", command=executeProgram)
