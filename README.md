@@ -43,7 +43,7 @@ There are several dependencies and requirements for this application to work. If
 
 
 ### Run Trigger.ahk
-  - Download the files (you can download and then extract them from here: https://github.com/JRJurman/AudioMonitor/archive/master.zip )
+  - Download the AudioMonitor [you can download and then extract them from here](https://github.com/JRJurman/AudioMonitor/archive/master.zip )
   - Simply double click Trigger.ahk from the source directory!
 
 # Configuring AudioMonitor
