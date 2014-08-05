@@ -21,20 +21,26 @@ There are several dependencies and requirements for this application to work. If
 # To Run the Application
 
 
+
 ### Install Dependencies:
- 
+
+
 - Install AutoHotKeys (v1.1) [tested on v1.1.14.03]
   - http://www.autohotkey.com/
-  - (in case the above link points to v1.0) http://ahkscript.org/download/1.1/
- 
+  - [in case the above link points to v1.0](http://ahkscript.org/download/1.1/)
+
+
+
 - Install Python (2.7 or 3.3) [tested on 3.3.5rc1]
   - https://www.python.org/downloads/
   - Be sure when installing Python, you include the Tkinter library
+
  
 ### Open Sound Prefrences:
   _This might seem odd, but in order for AutoHotKeys to grab your microphone, the meter must be open_
   - Right Click sound icon in the bottom right > Recording Devices
   - Leave this window open
+
 
 ### Run Trigger.ahk
   - Download the files (you can download and then extract them from here: https://github.com/JRJurman/AudioMonitor/archive/master.zip )
