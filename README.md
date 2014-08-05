@@ -4,7 +4,7 @@
 AV Muter that is triggered by extended periods of loud input from the microphone
 Created by Jesse R Jurman and Ethan H Jurman
 
-This program is facilated by 2 scripts:
+This program is facilitated by 2 scripts:
     
 - AVMuter.py  | A python script (2.x or 3.x) that generates the black screen, countdown, and image
     
@@ -25,6 +25,7 @@ There are several dependencies and requirements for this application to work. If
  
 - Install AutoHotKeys (v1.1) [tested on v1.1.14.03]
   - http://www.autohotkey.com/
+  - (in case the above link points to v1.0) http://ahkscript.org/download/1.1/
  
 - Install Python (2.7 or 3.3) [tested on 3.3.5rc1]
   - https://www.python.org/downloads/
@@ -36,7 +37,8 @@ There are several dependencies and requirements for this application to work. If
   - Leave this window open
 
 ### Run Trigger.ahk
-  - Simply run Trigger.ahk from the source directory!
+  - Download the files (you can download and then extract them from here: https://github.com/JRJurman/AudioMonitor/archive/master.zip )
+  - Simply double click Trigger.ahk from the source directory!
 
 # Configuring AudioMonitor
 
